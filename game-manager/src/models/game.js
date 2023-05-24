@@ -34,11 +34,11 @@ export var GameTypeEnum = {
             value: 0
         },
         1: {
-            text: 'Avventura',
+            text: 'Strategia',
             value: 1
         },
         2: {
-            text: 'Strategia',
+            text: 'Sport',
             value: 2
         },
         3: {
@@ -47,3 +47,41 @@ export var GameTypeEnum = {
         }
     }
 }
+
+export const gamesPlatformsList = [
+    {
+        text: 'PC',
+        value: 0
+    },
+    {
+        text: 'X-BOX',
+        value: 1
+    },
+    {
+        text: 'PS',
+        value: 2
+    },
+    {
+        text: 'Nintendo',
+        value: 3
+    }    
+];
+
+export const gamesTypesList = [
+    {
+        text: 'FPS',
+        value: 0
+    },
+    {
+        text: 'Strategia',
+        value: 1
+    },
+    {
+        text: 'Sport',
+        value: 2
+    },
+    {
+        text: 'Platform',
+        value: 3
+    }
+];
